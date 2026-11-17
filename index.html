@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Boxe: Muito Além da Luta</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Importação correta do Three.js -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🥊</div>
+        <h1>BOXE: MUITO ALÉM DA LUTA</h1>
+        <p>Conheça a história, a técnica e a disciplina do boxe.</p>
+        <span>William M.S. | Turma 101TAI</span>
+    </header>
+
+    <main>
+
+        <section class="exposicao">
+
+            <aside class="painel">
+                <h2>Explore nossa exposição</h2>
+
+                <p>
+                    Conheça o boxe, seus equipamentos,
+                    sua história e os valores que esse
+                    esporte desenvolve.
+                </p>
+
+                <div class="instrucoes">
+                    🖱️ Arraste para girar o cenário.<br>
+                    🔍 Use o scroll para aproximar.<br>
+                    👆 Clique nos objetos para descobrir mais.
+                </div>
+
+                <div id="descricao">
+                    Escolha um objeto da exposição para
+                    conhecer sua importância!
+                </div>
+
+                <button id="resetar">Voltar à visão inicial</button>
+
+            </aside>
+
+            <div class="area-3d">
+                <div id="carregamento">🥊 Preparando a exposição...</div>
+                <div id="cenario3d"></div>
+            </div>
+
+        </section>
+
+        <section class="sobre">
+
+            <h2>Conheça o mundo do boxe</h2>
+
+            <div class="cards">
+
+                <article>
+                    <span>📜</span>
+                    <h3>História</h3>
+                    <p>
+                        O boxe possui raízes antigas e evoluiu
+                        com a criação de regras e equipamentos
+                        de proteção.
+                    </p>
+                </article>
+
+                <article>
+                    <span>🥊</span>
+                    <h3>Equipamentos</h3>
+                    <p>
+                        Luvas, bandagens e protetor bucal
+                        ajudam a proteger os atletas.
+                    </p>
+                </article>
+
+                <article>
+                    <span>💪</span>
+                    <h3>Treinamento</h3>
+                    <p>
+                        O esporte trabalha força, velocidade,
+                        resistência, coordenação e reflexos.
+                    </p>
+                </article>
+
+                <article>
+                    <span>🧠</span>
+                    <h3>Disciplina</h3>
+                    <p>
+                        Respeito, autocontrole, persistência
+                        e concentração fazem parte do boxe.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="conclusao">
+            <h2>Muito além dos golpes!</h2>
+
+            <p>
+                O boxe ensina que a verdadeira evolução
+                acontece com treinamento, dedicação,
+                respeito e disciplina.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3>🥊 BOXE: MUITO ALÉM DA LUTA</h3>
+        <p>Exposição escolar — William M.S. — Turma 101TAI</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
